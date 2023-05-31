@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Circular&family=Roboto&family=Helvetica+Neue&display=swap");
+
+/* Font families */
+body {
+  font-family: "Circular", -apple-system, system-ui, Roboto, "Helvetica Neue",
+    sans-serif;
+}
+
+.thumbs-wrapper.axis-vertical {
+  margin: 0 !important;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none !important;
+}
